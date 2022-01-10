@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#home {
+    width: 100%;
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+.title-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: brown;
+}
+.title-box h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.2rem;
+}
+.title-box h2 {
+    font-size: 1.5rem;
+    font-family: 'Luxurious Roman', cursive;
+
+}
